@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>home_pagina</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    body,h1,h2,h3,h4,h5,h6 {font-family: "Lato", sans-serif}
+    .w3-bar,h1,button {font-family: "Montserrat", sans-serif}
+    .fa-anchor,.fa-coffee {font-size:200px}
+    </style>
+  </head>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-light-green w3-card w3-left-align w3-large">
+    <a class="w3-bar-item w3-button w3-hide-medium w3-hide-large w3-right w3-padding-large w3-hover-white w3-large w3-red" href="javascript:void(0);" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="mental_fit.html" class="w3-bar-item w3-button w3-padding-large w3-white">Home</a>
+    <a href="mentaal_effect.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">mentaal effect</a>
+    <a href="fysiek_effect.html" class="w3-bar-item w3-button w3-hide-small w3-padding-large w3-hover-white">fysiek effect</a>
+  </div>
+
+  <!-- Navbar on small screens -->
+  <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium w3-large">
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 1</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 2</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 3</a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">Link 4</a>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-container w3-green w3-center" style="padding:128px 16px">
+  <h1 class="w3-margin w3-jumbo">Mental fit</h1>
+  <p class="w3-xlarge">boost je geest, wees mental fit</p>
+</header>
+
+<!-- First Grid -->
+<div class="w3-row-padding w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-twothird">
+      <h1>Ontdek de Kracht van Sport: Fysieke en Mentale Wellness in Harmonie</h1>
+      <h5 class="w3-padding-32">Welkom bij onze boeiende wereld van sport, waar fysieke kracht en mentale veerkracht samenkomen om een evenwichtige en gezonde levensstijl te creëren. Hier bij Mental-Fit nemen we je mee op een inspirerende reis naar de diepgaande en soms verrassende effecten van sport op ons lichaam en geest. Of je nu een doorgewinterde atleet bent of net begint aan je sportieve avontuur, wij delen deskundig advies, wetenschappelijk onderbouwde inzichten en inspirerende verhalen om je te helpen begrijpen hoe sport jouw leven kan transformeren. Van het versterken van je immuunsysteem tot het vergroten van je zelfvertrouwen en stressvermindering, we onthullen de ongelooflijke voordelen die sport te bieden heeft. Dus, stap in je sneakers en doe met ons mee terwijl we samen de kracht van sport verkennen voor een gezonder, gelukkiger en evenwichtiger jij!</h5>
+
+      <p class="w3-text-grey"></p>
+    </div>
+
+    <div class="w3-third w3-center">
+    </div>
+  </div>
+</div>
+
+<!-- Second Grid -->
+<div class="w3-row-padding w3-light-grey w3-padding-64 w3-container">
+  <div class="w3-content">
+    <div class="w3-third w3-center">
+    </div>
+
+    <div class="w3-twothird">
+      <h1>Bereik Je Beste Zelf: Sport als Sleutel tot Succes</h1>
+      <h5 class="w3-padding-32">Bij Mental-Fit geloven we dat sport niet alleen draait om winnen, maar ook om persoonlijke groei en welzijn. We duiken dieper in de wetenschap achter sportprestaties en hoe lichaamsbeweging invloed heeft op ons brein, humeur en algehele levenskwaliteit. Ontdek hoe sport een natuurlijke antidepressivum kan zijn, hoe het je creativiteit kan stimuleren en hoe het teamwork en leiderschap bevordert. Onze artikelen, video's en deskundige bijdragen bieden waardevolle inzichten en praktische tips om sport in jouw dagelijkse routine op te nemen, ongeacht je leeftijd of fitnessniveau. Dus, kom langs en word de beste versie van jezelf met de kracht van sport als jouw gids!</h5>
+
+      <p class="w3-text-grey"></p>
+    </div>
+  </div>
+</div>
+
+<div class="w3-container w3-light-green w3-center w3-opacity w3-padding-64">
+    <h1 class="w3-margin w3-xlarge">Quote of the day: be mental</h1>
+</div>
+
+
+<script>
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+  var x = document.getElementById("navDemo");
+  if (x.className.indexOf("w3-show") == -1) {
+    x.className += " w3-show";
+  } else { 
+    x.className = x.className.replace(" w3-show", "");
+  }
+}
+</script>
+
+</body>
+</html>
